@@ -4,11 +4,10 @@ import { GlobalStyle } from "../src/shared/global";
 
 // define global decorator to be used in all apps 
 export const decorators = [
-  Story = (
-    <>
-      <GlobalStyle>
-        <Story/>  
-      </GlobalStyle>    
+  Story => (
+    <>                      
+      <GlobalStyle/>         
+        <Story/>            
     </>
   )
 ]
