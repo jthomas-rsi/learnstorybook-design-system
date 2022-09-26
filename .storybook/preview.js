@@ -12,6 +12,7 @@ export const decorators = [
   )
 ]
 
+// the below export defines all the controls that are displayed in the storybook ui for each app
 export const parameters = {
   actions: { argTypesRegex: "^on[A-Z].*" },
   controls: {
